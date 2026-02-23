@@ -1,6 +1,9 @@
 @media only screen and (max-width:950px){
     .netflix{
-        margin-left: 15vw;
+        width: 90%;
+        max-width: 1200px;
+        margin: auto;
+        /* margin-left: 15vw; */
     }
     #select{
         width: 20vw;

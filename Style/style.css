@@ -3,6 +3,52 @@
     padding: 0;
 }
 
+/* JUST TRYING OUT */
+
+.hero{
+    background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)),
+                url("../Assets/backgroundimage.jpg");
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 8%;
+}
+
+.netflix{
+    color: #d51c1c;
+    font-size: 40px;
+}
+
+#signin{
+    padding: 8px 18px;
+    background-color: red;
+    border: none;
+    border-radius: 6px;
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.hero-content{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0 20px;
+    gap: 20px;
+}
+
 
 #background{
     filter: brightness(0.5);
@@ -15,14 +61,48 @@
 
 }
 
+.email-box{
+    display:flex;
+    gap:10px;
+    flex-wrap:wrap;
+    justify-content:center;
+}
 
-.netflix{
+.email-box input{
+    flex:1;
+    min-width:250px;
+    max-width:400px;
+    padding:14px;
+    border-radius:5px;
+    border:none;
+}
+
+.email-box button{
+    padding:14px 25px;
+    background:#e50914;
+    border:none;
+    border-radius:5px;
+    color:white;
+    font-weight:600;
+}
+
+.getstarted{
+    padding: 12px 20px;
+    background-color: red;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-weight: 600;
+}
+
+
+/* .netflix{
     position: absolute;
     top: 9%;
     left: 6%;
     color: #d51c1c;
     font-size: 55px;
-}
+} */
 
 
 #select{
@@ -42,7 +122,7 @@
 }
 
 
-#signin{
+/* #signin{
     position: absolute;
     top: 12vh;
     left: 90vw;
@@ -58,23 +138,23 @@
     transition-property: all;
     transition-duration: 0.1s;
     transition-delay: 0.01s;
-}
+} */
 
 
-#signin:hover{
+/* #signin:hover{
     font-weight: 800;
     background-color: #bd0909;
-}
+} */
 
 
-.intro{
+/* .intro{
     color: whitesmoke;
     position: absolute;
     top: 40vh;
     left: 20vw;
     color:#ffffff;
     margin-bottom: 67px;
-}
+} */
 
 
 #one{
@@ -105,13 +185,13 @@
 }
 
 
-.email-box{
+/* .email-box{
     position: absolute;
     top: 65vh;
     left: 32vw;
     color: white;
     margin-top: 3px;
-}
+} */
 
 
 input::placeholder{
