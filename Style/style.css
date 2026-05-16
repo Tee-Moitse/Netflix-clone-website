@@ -122,7 +122,7 @@
 }
 
 
-/* #signin{
+#signin{
     position: absolute;
     top: 12vh;
     left: 90vw;
@@ -138,13 +138,13 @@
     transition-property: all;
     transition-duration: 0.1s;
     transition-delay: 0.01s;
-} */
+}
 
 
-/* #signin:hover{
+#signin:hover{
     font-weight: 800;
     background-color: #bd0909;
-} */
+}
 
 
 /* .intro{
