@@ -3,7 +3,7 @@
     padding: 0;
 }
 
-/* JUST TRYING OUT */
+/* HERO SECTION */
 
 .hero{
     background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)),
@@ -49,6 +49,29 @@
     gap: 20px;
 }
 
+#one{
+    font-size: 45px;
+    font-weight: 700;
+}
+
+
+#two {
+    font-size: 40px;
+    font-weight: 500;
+}
+
+
+#price {
+    font-size: medium;
+    margin-top: 20px;
+}
+
+
+#three{
+    font-size: 20px;
+    margin-top: 2vh;
+}
+
 
 #background{
     filter: brightness(0.5);
@@ -68,14 +91,6 @@
     justify-content:center;
 }
 
-.email-box input{
-    flex:1;
-    min-width:250px;
-    max-width:400px;
-    padding:14px;
-    border-radius:5px;
-    border:none;
-}
 
 .email-box button{
     padding:14px 25px;
@@ -87,43 +102,26 @@
 }
 
 .getstarted{
-    padding: 12px 20px;
-    background-color: red;
-    border: none;
-    border-radius: 5px;
+    font-size: 20px;
+    font-weight: 200;
+    height: 55px;
+    width: 11vw;
+    border: 2px solid black;
+    border-radius: 8px;
+    border-style: none;
     color: white;
-    font-weight: 600;
+    background-color: red;
 }
 
 
-/* .netflix{
-    position: absolute;
-    top: 9%;
-    left: 6%;
-    color: #d51c1c;
-    font-size: 55px;
-} */
-
-
-#select{
-    position: absolute;
-    /* top: 9vh; */
-    left: 80vw;
-    height: 5vh;
-    width: 7vw;
-    background-color: black;
-    color: white;
-    font-size: 20px;
+.getstarted:hover{
     font-weight: 700;
-    border: 5px solid black;
-    border-radius: 10px;
-    border-style: none;
-    padding-left: 20px;
+    background: #af0c0c;
+    
 }
 
 
 #signin{
-    position: absolute;
     top: 12vh;
     left: 90vw;
     height: 5vh;
@@ -131,7 +129,7 @@
     color: white;
     background-color: red;
     font-size: 14px;
-    font-weight: 600;
+    font-weight: 200;
     border: 5px solid red;
     border-radius: 10px;
     border-style: none;
@@ -142,7 +140,7 @@
 
 
 #signin:hover{
-    font-weight: 800;
+    font-weight: 400;
     background-color: #bd0909;
 }
 
@@ -157,32 +155,7 @@
 } */
 
 
-#one{
-    font-size: 45px;
-    font-weight: 700;
-    margin-left: 8vw;
-}
 
-
-#two {
-    font-size: 40px;
-    font-weight: 500;
-    margin-left: 18vw;
-}
-
-
-#price {
-    font-size: medium;
-    margin-top: 20px;
-    margin-left: 24vw;
-}
-
-
-#three{
-    font-size: 20px;
-    margin-top: 2vh;
-    margin-left: 14vw;
-}
 
 
 /* .email-box{
@@ -217,29 +190,6 @@ input::placeholder{
 
 .email:hover{
     background: transparent;
-}
-
-
-.getstarted{
-    margin-left: 4px;
-    font-size: 22px;
-    font-weight: 600;
-    height: 6vh;
-    width: 11vw;
-    border: 2px solid black;
-    border-radius: 8px;
-    border-style: none;
-    color: white;
-    background-color: red;
-    transition-property: all;
-    transition-duration: 0.2s;
-    transition-delay: 0.01s;
-}
-
-
-.getstarted:hover{
-    font-weight: 700;
-    background: #d10e0e;
 }
 
 
