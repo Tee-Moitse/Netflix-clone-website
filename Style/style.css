@@ -31,7 +31,7 @@
     font-size: 40px;
 }
 
-#signin{
+/* #signin{
     padding: 8px 18px;
     background-color: red;
     border: none;
@@ -39,7 +39,7 @@
     color: white;
     font-weight: 600;
     cursor: pointer;
-}
+} */
 
 .hero-content{
     flex: 1;
@@ -144,17 +144,16 @@
     
 }
 
-
-
 #signin{
-    top: 12vh;
-    left: 90vw;
-    height: 5vh;
-    width: 4vw;
+    /* top: 12vh;
+    left: 90vw; */
+    height: 45px;
+    width: 50px;
     color: white;
     background-color: red;
-    font-size: 14px;
-    font-weight: 200;
+    font-size: 10px;
+    text-align: center;
+    /* font-weight: 200; */
     border: 5px solid red;
     border-radius: 10px;
     border-style: none;
