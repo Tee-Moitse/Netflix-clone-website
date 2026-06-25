@@ -39,15 +39,6 @@ html, body {
     font-size: 40px;
 }
 
-/* .netflix-divider{
-    width: 90%;
-    border: none;
-    height: 4px;
-    background-color: red;
-    border-radius: 55px;
-    /* box-shadow: 0 0 15px #0de93c33; */
-/* }  */
-
 .netflix-divider {
     /* .netflix-divider { */
     display: block;
@@ -55,16 +46,6 @@ html, body {
     height: 10px;
     
 }
-
-/* #signin{
-    padding: 8px 18px;
-    background-color: red;
-    border: none;
-    border-radius: 6px;
-    color: white;
-    font-weight: 600;
-    cursor: pointer;
-} */
 
 .hero-content{
     flex: 1;
