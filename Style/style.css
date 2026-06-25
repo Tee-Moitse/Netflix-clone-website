@@ -14,7 +14,7 @@
     background-size: cover;
     background-position: center;
     min-height: 100vh;
-    color: white;
+    /* color: white; */
     display: flex;
     flex-direction: column;
 }
@@ -29,6 +29,24 @@
 .netflix{
     color: #d51c1c;
     font-size: 40px;
+}
+
+/* .netflix-divider{
+    width: 90%;
+    border: none;
+    height: 4px;
+    background-color: red;
+    border-radius: 55px;
+    /* box-shadow: 0 0 15px #0de93c33; */
+/* }  */
+
+.netflix-divider {
+    /* width: 90%; */
+    /* height: 60px; */
+    /* margin: 20px auto; */
+    border-bottom: 4px solid red;
+    border-radius: 40% 40% 40% 40% / 100% 100% 0 0;
+    background: transparent;
 }
 
 /* #signin{
