@@ -178,7 +178,7 @@ html, body {
 
 /* NETFLIX PAGES SECTION */
 
-.netflix-pages{
+.netflix-info {
     display: flex;
     color: white;
     justify-content: space-evenly;
@@ -218,10 +218,6 @@ input::placeholder{
     width: 35vw;
 }
 
-
-/* hr{
-    border: 5px solid grey;
-} */
 
 
 /* #add2{
