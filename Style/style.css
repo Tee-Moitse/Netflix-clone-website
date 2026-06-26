@@ -178,9 +178,11 @@ html, body {
 
 /* NETFLIX PAGES SECTION */
 
+
+/* NETFLIX INFO SECTION */
 .netflix-info {
     display: flex;
-    color: white;
+    color: rgb(241, 114, 9);
     justify-content: space-evenly;
     align-items:center;
     background-color: black;
@@ -188,46 +190,78 @@ html, body {
     width: 100vw;
 }
 
-
-input::placeholder{
-    color: #9e9292;
-}
-
-
-
-#add1{
+.reasons-cards {
     display: flex;
-    background-color: black;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
-    height: 70vh;
-    width: 100vw;
+    gap: 25px;
+
+}
+
+.card-1 {
+    width: 300px;
+    height: 254px;
+    border-radius: 50px;
+    background: #e0e0e0;
+    text-align: center;
+
+}
+
+.heading-1{
+    /* text-align: center; */
+}
+
+.text-1 {
+
+}
+
+.card-2 {
+ width: 190px;
+ height: 254px;
+ border-radius: 50px;
+ background: #e0e0e0;
+}
+
+.heading-2{
+    text-align: center;
+}
+
+.text-2 {
+
 }
 
 
-.tv{
-    font-size: 30px;
-    width: 40vw;
-    height: 30vh;
-    color: white;
+.card-3 {
+ width: 190px;
+ height: 254px;
+ border-radius: 50px;
+ background: #e0e0e0;
+
 }
 
-
-.tvimg{
-    height: 40vh;
-    width: 35vw;
+.heading-3{
+    text-align: center;
 }
 
+.text-3 {
 
+}
 
-/* #add2{
-    display: flex;
-    justify-content: space-evenly;
-    align-items:center;
-    background-color: black;
-    height: 70vh;
-    width: 100vw;
-} */
+.card-4 {
+ width: 190px;
+ height: 254px;
+ border-radius: 50px;
+ background: #e0e0e0;
+
+}
+
+.heading-4{
+    text-align: center;
+}
+
+.text-4 {
+
+} 
 
 
 .downloadimg{
