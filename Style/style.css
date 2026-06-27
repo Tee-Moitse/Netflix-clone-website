@@ -182,7 +182,7 @@ html, body {
 /* NETFLIX INFO SECTION */
 .netflix-info {
     display: flex;
-    color: rgb(241, 114, 9);
+    color: white;
     justify-content: space-evenly;
     align-items:center;
     background-color: black;
