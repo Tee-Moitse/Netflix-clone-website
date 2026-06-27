@@ -300,6 +300,10 @@ html, body {
     width: 100vw;
 }
 
+.faq-wrapper {
+    max-width: 85%;
+    margin: auto;
+}
 
 
 
