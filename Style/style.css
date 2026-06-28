@@ -379,3 +379,8 @@ html, body {
     width: 100vw;
 }
 
+.footer {
+    color: #ffff;
+    text-align: center;
+    padding-bottom: 15px;
+}
