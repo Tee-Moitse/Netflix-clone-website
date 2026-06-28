@@ -370,11 +370,11 @@ html, body {
 }
 
 
-#add5{
+#add5 {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    background-color: #db1c1c;
+    background-color: #070707;
     height: 70vh;
     width: 100vw;
 }
