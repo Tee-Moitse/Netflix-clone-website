@@ -335,6 +335,7 @@ html, body {
     background-color: white;
     overflow: hidden;
     background-color: rgb(245, 219, 224);
+    display: none;
 }
 
 .panel p{
@@ -343,6 +344,15 @@ html, body {
     line-height: 1.4;
 }
 
+
+.faq {
+    border: 1px solid rgba(0,0,0,0.2);
+    margin: 10px 0;
+}
+
+.faq.active{
+
+}
 
 
 /*  */
