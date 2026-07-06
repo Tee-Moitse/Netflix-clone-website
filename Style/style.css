@@ -148,6 +148,8 @@ html, body {
 .getstarted:hover{
     font-weight: 700;
     background: #af0c0c;
+    cursor: pointer;
+    transition: 0.5s;
     
 }
 
