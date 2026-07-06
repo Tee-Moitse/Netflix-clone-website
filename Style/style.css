@@ -3,7 +3,7 @@
 html, body {
     overflow-x: hidden;
     width: 100%;
-    background-color: #f8f5f5;
+    background-color: #000;
 }
 
 *, *::before, *::after {
@@ -302,6 +302,11 @@ html, body {
 
 .faq-wrapper p, h1{
     margin: 1.5rem 0;
+
+}
+
+.faq-wrapper h1{
+    color: white;
 
 }
 
