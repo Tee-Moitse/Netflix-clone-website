@@ -311,8 +311,8 @@ html, body {
 }
 
 .accordion{
-    background-color: white;
-    color: rgba(0,0,0,0.8);
+    background-color: #373737;
+    color: #ffffff;
     cursor: pointer;
     font-size: 1.2rem;
     width: 100%;
@@ -330,21 +330,26 @@ html, body {
     font-size: 1.6rem;
 
 }
+/* 
+.active, .accordion{
+    transition: smooth 0.5s;
+} */
 
 .active, .accordion:hover{
-    background-color: rgb(245, 219, 224);
+    background-color: rgb(70, 69, 69);
+    /* transition-duration: 0.5s; */
 }
 
 .panel{
     padding: 0 2rem 2.5rem 2rem;
-    background-color: white;
+    background-color: rgb(69, 67, 67);
     overflow: hidden;
-    background-color: rgb(245, 219, 224);
+    background-color: #373737;
     display: none;
 }
 
 .panel p{
-    color: rgba(0,0,0,0.8);
+    color: #ffffff;
     font-size: 1.2rem;
     line-height: 1.4;
 }
@@ -427,7 +432,7 @@ html, body {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    background-color: #ae5c5c;
+    background-color: #0000;
     height: 70vh;
     width: 100vw;
 }
