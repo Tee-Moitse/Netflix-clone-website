@@ -11,20 +11,26 @@ This project isn't tied to a job application or a deadline, it's something I'm b
 - Email sign-up input with a "Get Started" CTA, matching Netflix's real layout
 - A custom curved section divider between the hero and content sections
 - Multiple feature sections ("Enjoy on your TV", "Download your shows", "Watch everywhere", "Create profiles for children") alternating image/text layout
-- Responsive layout adjustments for smaller screens
+- A section of with FAQs with regards to the website
+- A footer section
 
 ## Built With
 
 - **HTML5** — semantic page structure
 - **CSS3** — layout (Flexbox), gradients, custom dividers, responsive media queries
 - **Font Awesome** — icon library (via CDN)
+- **JavaScript** - interactivity for the faq panels
 
 ## Project Structure
 
 ```
-├── index.html          # Main page markup
-├── style.css           # Core styling
-├── responsive.css      # Media queries for smaller screens
+Assets
+     |
+Index
+     ├── index.html          # Main page markup
+Styles
+   ├── style.css           # Core styling
+   ├── responsive.css      # Media queries smaller for smaller screens
 └── Assets/             # Images used across sections
 ```
 
