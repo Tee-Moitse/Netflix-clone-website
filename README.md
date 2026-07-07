@@ -1,8 +1,8 @@
 # Netflix Clone Website🎬
 
-A front-end recreation of the Netflix landing page, built with plain HTML and CSS.
+A front-end recreation of the Netflix landing page, built with plain HTML, CSS and JavaScript.
 
-This project isn't tied to a job application or a deadline, it's something I'm building for the fun of it. It's a reminder of why I wanted to get into tech in the first place, and a space to keep sharpening my Frontend skills one section at a time.
+This project isn't tied to a job application or a deadline, it's something I'm building for the fun of it. It's a reminder of why I wanted to get into tech in the first place, a project for me to just be creative and a space to keep sharpening my Frontend skills one section at a time.
 
 
 ## Features
@@ -36,7 +36,7 @@ Styles
 
 ## Running Locally
 
-No build tools or dependencies needed — it's plain HTML/CSS.
+No build tools or dependencies needed — it's plain HTML/CSS and JavaScript.
 
 1. Clone the repo
    ```bash
