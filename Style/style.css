@@ -437,7 +437,7 @@ html, body {
 
 #add5 {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
     background-color: #0000;
     height: 70vh;
