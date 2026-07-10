@@ -438,13 +438,19 @@ html, body {
 .add5 {
     display: flex;
     gap: 20px;
-    /* justify-content: center; */
-    background-color: #0000;
+    justify-content: center;
+    align-items: center;
+    background-color: #f1babaf0;
     height: 70vh;
     width: 100vw;
 }
 
-.email{
+.ending-text{
+    padding-top: 2.5.rem;
+    text-align: center;
+}
+
+/* .email-section{
     height: 55px;
     width: 29vw;
     border: 2px solid black;
@@ -458,9 +464,9 @@ html, body {
     transition-property: all;
     transition-duration: 0.2s;
     transition-delay: 0.01s;
-}
+} */
 
-.get-started{
+.get-button{
     font-size: 20px;
     font-weight: 200;
     height: 55px;
